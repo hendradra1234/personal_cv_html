@@ -46,7 +46,7 @@ footer {
 }
 
 .profile img {
-    width: 200px;
+    width: 100px;
 }
 
 .card {
@@ -86,7 +86,7 @@ nav a {
 
 #content {
     float: left;
-    width: 75%;
+    width: 100%;
 }
 
 aside {
