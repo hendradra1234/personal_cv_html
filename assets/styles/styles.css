@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+body {
+   font-family: 'Roboto', sans-serif;
+   margin: 0;
+   padding: 0;
+   background-color: #ebe8e8;
+}
+
+main {
+    padding: 10px;
+    overflow: auto;
+}
+
+h2 {
+    color: #6e7b7e
+}
+
+h3 {
+    color: #6e7b7e
+}
+
+
+nav a:hover {
+    font-weight: bold;
+}
+
+.profile header {
+   text-align: center;
+}
+
+footer {
+    padding: 20px;
+    color: white;
+    background-color: #6e7b7e;
+    text-align: center;
+    font-weight: bold;
+}
+
+.featured-image {
+    width: 100%;
+    max-height: 400px;
+    object-fit:scale-down;
+    object-position: center;
+}
+
+.profile img {
+    width: 200px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #ffffff;
+}
+
+
+.jumbotron {
+    font-size: 20px;
+    padding: 60px;
+    background-color: #6e7b7e;
+    text-align: center;
+    color: white;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+nav {
+    background-color: #646f72;
+    padding: 5px;
+}
+
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+}
+
+#content {
+    float: left;
+    width: 75%;
+}
+
+aside {
+    float: right;
+    width: 25%;
+    padding-left: 10px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.social-media {
+    max-height: 50px;
+    max-width: 50px;
+    object-fit:fill;
+}
+
+.column-flex {
+    display: flexbox;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    text-align: right;
+}
+
+.row-flex {
+    display: flex;
+}
+
+.box {
+    flex-basis: 25%;
+    text-align: center;
+}
+
+.round-image {
+    border-radius: 50%;
+}
+
+nav {
+    background-color: #676d6e;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+}
+
+header {
+    display: inline;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+table {
+    font-size: 14px;
+    text-align: left;
+}
+
+@media screen and (max-width: 1000px) {
+    #content,
+    aside {
+        width: 100%;
+        padding: 0;
+    }
+    .social-media {
+        max-height: 100px;
+        max-width: 100px;
+        object-fit:fill;
+    }
+    table {
+        font-size: xx-large;
+        text-align: left;
+    }
+    nav a {
+        font-size: 38px;
+        font-weight: 400;
+        text-decoration: none;
+        color: white;
+    }
+    p {
+        font-size: medium;
+    }
+
+    h2, h3 {
+        font-size: xx-large;
+    }
+    .profile img {
+        width: 400px;
+    }
+}
+
+
+
+
+
