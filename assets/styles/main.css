@@ -5271,3 +5271,11 @@ figcaption {
         height: 100%;
         width: 100%;
     }
+
+footer {
+
+    color: white;
+    background-color: darkslategrey;
+    text-align: center;
+    font-weight: bold;
+}
