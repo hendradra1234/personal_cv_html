@@ -5261,7 +5261,8 @@ a.credit {
 
 
 .portofolio img {
-        height: 300px;
+        max-height: 300px;
+        height: auto;
         width: auto;
         margin-left: auto;
         margin-right: auto;
